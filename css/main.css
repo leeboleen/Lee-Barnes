@@ -239,6 +239,14 @@ html:not(html:hover) .cursor::after {
   width: 1000px;
 }
 
+.pastel-bg {
+  background-image: url("../images/pastel.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 21;
+}
+
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
