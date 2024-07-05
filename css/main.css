@@ -95,6 +95,22 @@ h6 {
   font-size: var(--h6-font-size);
 }
 
+.full {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 52px;
+}
+
 p,
 .list .list-item {
   color: var(--p-color);
